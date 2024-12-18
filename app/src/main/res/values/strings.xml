@@ -1,5 +1,13 @@
 <resources>
     <string name="app_name">WhiteNoiseMixer</string>
-    <string name="title_home">홈</string>
-    <string name="title_library">보관함</string>
+    <string name="bottom_home">홈</string>
+    <string name="bottom_library">보관함</string>
+    <string name="top_current">재생 중</string>
+    <string name="top_bird">새</string>
+    <string name="top_river">강</string>
+    <string name="top_forest">숲</string>
+    <string name="top_wind">바람</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_player">PlayerActivity</string>
 </resources>

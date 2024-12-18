@@ -13,6 +13,12 @@
         android:theme="@style/Theme.WhiteNoiseMixer"
         tools:targetApi="31">
         <activity
+            android:name=".PlayerActivity"
+            android:exported="false"
+            android:label="@string/title_activity_player"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name">

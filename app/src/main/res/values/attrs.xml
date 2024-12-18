@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 사용자 정의 속성 추가 -->
+    <declare-styleable name="CustomMenuItem">
+        <attr name="categoryValue" format="string" />
+    </declare-styleable>
+</resources>

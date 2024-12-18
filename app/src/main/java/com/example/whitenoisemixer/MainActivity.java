@@ -1,5 +1,6 @@
 package com.example.whitenoisemixer;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -32,6 +33,13 @@ public class MainActivity extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_activity_main);
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(binding.navView, navController);
+
+        findViewById(R.id.music_player_bar).setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, PlayerActivity.class);
+            startActivity(intent);
+            overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out); // 화면 전환 애니메이션
+        });
+
     }
 
 }

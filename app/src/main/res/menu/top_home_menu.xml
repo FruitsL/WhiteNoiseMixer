@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/current"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/top_current"
+        app:categoryValue="current"/>
+    <item
+        android:id="@+id/bird"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/top_bird"
+        app:categoryValue="bird" />
+    <item
+        android:id="@+id/river"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/top_river"
+        app:categoryValue="river" />
+    <item
+        android:id="@+id/forest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/top_forest"
+        app:categoryValue="forest" />
+    <item
+        android:id="@+id/wind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/top_wind"
+        app:categoryValue="wind" />
+</menu>
